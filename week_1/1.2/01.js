@@ -110,39 +110,58 @@
 
 
 
-//classes:- reusable structure basically objects
+// //classes:- reusable structure basically objects
 
 
-class Animal{
-    constructor(name, legCount,speaks){
-            this.name=name;
-            this.legCount=legCount;
-            this.speaks=speaks;
-    } 
-    static myType(){
-        console.log("Animal")
-    }                                    //associated with class.. 
-    speak(){
-        console.log("hi there! " + this.speaks);
-    }
-}
+// class Animal{
+//     constructor(name, legCount,speaks){
+//             this.name=name;
+//             this.legCount=legCount;
+//             this.speaks=speaks;
+//     } 
+//     static myType(){
+//         console.log("Animal")
+//     }                                    //associated with class.. 
+//     speak(){
+//         console.log("hi there! " + this.speaks);
+//     }
+// }
 
-let dog = new Animal("dog",4,"barks");
-let cat = new Animal("cat",4,"mews");
+// let dog = new Animal("dog",4,"barks");
+// let cat = new Animal("cat",4,"mews");
 
-console.log(Animal.myType())
-dog.speak();
-cat.speak();
-
-
+// console.log(Animal.myType())
+// dog.speak();
+// cat.speak();
 
 
+  // const currentDate =new Date();
+
+// console.log(currentDate.getDate());
+// console.log(currentDate.getMonth()+1);
+// console.log(currentDate.getFullYear());
 
 
 
+// const users = '{"name": "Harsh","age":"male","gender":"male"}'
+     
+
+// // JSON.parse
+// // JSON.stringify
+
+// const user = JSON.parse(users)
+// console.log(user["gender"]);
 
 
+// const user ={
+//     name: "Harsh",
+//     gender: "Male",
 
-//callbacks, map filter find sort 
+// }
+// const finalString = JSON.stringify(user)
+// console.log(finalString);
+
+//converted to string up one
 
 
+ //refer to more codes on the git repo of harkirat//
